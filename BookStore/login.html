@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333;">
+
+  <header style="background-color: #333; color: white; padding: 1rem 0;">
+    <nav style="text-align: center;">
+      <ul style="list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center;">
+        <li style="margin: 0 1rem;"><a href="index.html" style="color: white; text-decoration: none; font-size: 1.2rem;">Home</a></li>
+        <li style="margin: 0 1rem;"><a href="about.html" style="color: white; text-decoration: none; font-size: 1.2rem;">About</a></li>
+        <li style="margin: 0 1rem;"><a href="login.html" style="color: white; text-decoration: none; font-size: 1.2rem;">Login</a></li>
+        <li style="margin: 0 1rem;"><a href="signup.html" style="color: white; text-decoration: none; font-size: 1.2rem;">Sign Up</a></li>
+         <li style="margin: 0 1rem;"><a href="books.html" style="color: white; text-decoration: none; font-size: 1.2rem;">Books</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main style="padding: 2rem;">
+    <section id="login" style="max-width: 400px; margin: auto; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; background: #f9f9f9;">
+      <h2>Login</h2>
+      <form action="#" method="post">
+        <label for="username" style="margin: 0.5rem 0;">Username</label>
+        <input type="text" id="username" name="username" required pattern="[a-zA-Z0-9]{4,12}" title="4-12 letters or numbers only"
+        style="width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="password" style="margin: 0.5rem 0;">Password</label>
+        <input type="password" id="password" name="password" required pattern="[A-Z][a-z\d]+{6,}" title="At least 6 characters, including 1 letter is capital and 1 number"
+         style="width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px;">
+
+        <button type="submit" style="width: 100%; padding: 0.75rem; color: white; background-color: #007BFF; border: none; border-radius: 4px; cursor: pointer;">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer style="background-color: #333; color: white; text-align: center; padding: 1rem 0;">
+    <p>&copy; 2024 Bookstore. All rights reserved.</p>
+  </footer>
+</body>
+</html>

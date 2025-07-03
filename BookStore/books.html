@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Collection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333;">
+
+  <header style="background-color: #333; color: white; padding: 1rem 0;">
+    <nav style="text-align: center;">
+      <ul style="list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;">
+        <li style="margin: 0 1rem;"><a href="index.html" style="color: white;">Home</a></li>
+        <li style="margin: 0 1rem;"><a href="about.html" style="color: white;">About</a></li>
+        <li style="margin: 0 1rem;"><a href="login.html" style="color: white;">Login</a></li>
+        <li style="margin: 0 1rem;"><a href="signup.html" style="color: white;">Sign Up</a></li>
+        <li style="margin: 0 1rem;"><a href="books.html" style="color: white; text-decoration: underline;">Books</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main style="padding: 2rem;">
+    <h2 style="text-align: center;">Book Collection</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse; margin-top: 2rem;">
+      <thead style="background-color: #f2f2f2;">
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Price</th>
+          <th>Read</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Alchemist</td>
+          <td>Paulo Coelho</td>
+          <td>Fiction</td>
+          <td>₹399</td>
+          <td><a href="../books/alchemist.pdf" target="bookFrame"><button style="font-size: medium;">Read</button></a></td>
+        </tr>
+        <tr>
+          <td>Atomic Habits</td>
+          <td>James Clear</td>
+          <td>Self-help</td>
+          <td>₹499</td>
+          <td><a href="../books/atomic_habits.pdf" target="bookFrame"><button style="font-size: medium;">Read</button></a></td>
+        </tr>
+        <tr>
+          <td>Wings of Fire</td>
+          <td>A.P.J. Abdul Kalam</td>
+          <td>Autobiography</td>
+          <td>₹299</td>
+          <td><a href="../books/wings_of_fire.pdf" target="bookFrame"><button style="font-size: medium;">Read</button></a></td>
+        </tr>
+        <tr>
+          <td>Rich Dad Poor Dad</td>
+          <td>Robert Kiyosaki</td>
+          <td>Finance</td>
+          <td>₹450</td>
+          <td><a href="../books/rich_dad_poor_dad.pdf" target="bookFrame"><button style="font-size: medium;">Read</button></a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="margin-top: 3rem;">Book Preview</h3>
+    <iframe name="bookFrame" src="" width="100%" height="500px" style="border: 1px solid #ccc;"></iframe>
+  </main>
+
+  <footer style="background-color: #333; color: white; text-align: center; padding: 1rem;">
+    <p>&copy; 2024 Bookstore. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
