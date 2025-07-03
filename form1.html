@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="transportation.png" style="width: 800px;" alt=""></center>
+    <form>
+        <fieldset style="width: 700px; margin: auto; background-color: #F5F5F5;">
+            <legend> <button style="background-color: #00A3FF; color: white;  font-size:larger; padding: 10px; font-family: serif; padding: 10px; font-family: serif;">Application Details</button></legend>
+             <table cellpadding="10" style="width: 100%;">
+                <tr >
+                    <td><label for="name">Name</label>
+                    <input type="text" name="name" id="name" required style="margin-left: 60px;"></td>
+                    <td><label for="Father's name">Father's/Guardian <br>  Name</label>
+                    <input type="text" name="Father's name" required style="margin-left: 40px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Dob">Date Of Birth</label>
+                    <input type="text" id="Dob" name="Dob" style="margin-left: 10px;" required></td>
+                    <td><label for="Gender">Gender
+                    <input type="radio" id="Gender" value="Female" name="Gender" style="margin-left: 30px;" required>Female
+                    <input type="radio" id="Gender"  value="Male" name="Gender" required> Male</label>
+                   
+                </tr>
+                <tr>
+                    <td><label for="Whatsapp no">Whatsapp No</label>
+                    <input type="tel" name="name" id="Whatsapp" required style="margin-left: 15px;"></td>
+                    <td><label for="Aadhar No">Aadhar No</label>
+                    <input type="text" name="AadharNo" required style="margin-left: 10px;"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="Photo">Photo</label>
+                    <input type="file" name="Photo" id="photo" required style="margin-left: 70px;"></td>
+                    <td><label for="Email">Email</label>
+                    <input type="email" name="Email" required style="margin-left: 40px;"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width: 700px; margin: auto; background-color: #F5F5F5;">
+            <legend> <button style="background-color: #00A3FF; color: white;  font-size:larger; padding: 10px; font-family: serif; padding: 10px; font-family: serif;">Residential Address Details</button></legend>
+             <table cellpadding="10" style="width: 100%;">
+                <tr >
+                    <td>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" required style="margin-left: 60px;" rows="5" ></textarea>
+                    </td>
+                    <td>
+                    <label for="District">District</label>
+                    <select name="District" id="District" style="width: 170px; margin-left: 60px; padding: 5px;" required>
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="hyderabad">kukatpally</option>
+                    <option value="hyderabad">kphb</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="District">Mandal</label>
+                    <select name="Mandal" id="Mandal" style="width: 170px; margin-left: 70px; padding: 5px;" required>
+                    <option value="Mandal">KP Zone</option>
+                    </select></td>
+                    <td><label for="Village">VILLAGE</label>
+                    <select name="Village" id="Village" style="width: 170px; margin-left: 45px; padding: 5px;" required>
+                    <option value="Village">KP Zone</option>
+                    </select>   
+                </tr>   
+            </table>
+        </fieldset>
+        <fieldset style="width: 700px; margin: auto; background-color: #F5F5F5;">
+            <legend> <button style="background-color:#00A3FF; color: white;  font-size:larger; padding: 10px; font-family: serif;">Pass Type Details</button></legend>
+             <table cellpadding="10" style="width: 100%;">
+                <tr >
+                    <td>
+                        <label for="City">City</label>
+                    <select name="City" id="City" style="width: 170px; margin-left: 90px; padding: 5px;" required>
+                    <option value="hyderabad">--select--</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    </select>
+                    </td>
+                    <td>
+                    <label for="pass Type">Pass Type</label>
+                    <select name="Pass Type" id="Pass Type" style="width: 170px; margin-left: 45px; padding: 5px;" required>
+                    <option value="select">--select--</option>
+                    <option value="greater">greater pass</option>
+                    <option value="employee">Employee Pass</option>
+                    <option value="senior">Senior Citizen Pass</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="From place">From District</label>
+                    <select name="from district" id="from district" style="width: 170px; margin-left: 30px; padding: 5px;" required>
+                    <option value="select">select</option>
+                    <option value="hyderabad">HYDERABAD</option>
+                    </select></td>
+                    <td><label for="To District">To District</label>
+                    <select name="To District" id="To District" style="width: 170px; margin-left: 40px; padding: 5px;" required>
+                    <option value="select">select</option>
+                    <option value="hyderabad">HYDERABAD</option>
+                    </select>   
+                </tr>
+                <tr>
+                    <td><label for="From place">From Place </label>
+                    <select name="from place " id="from place" style="width: 170px; margin-left: 45px; padding: 5px;" required>
+                    <option value="select">select</option>
+                    <option value="hyderabad">HYDERABAD</option>
+                    </select></td>
+                    <td><label for="To place ">To Place </label>
+                    <select name="To place" id="To place" style="width: 170px; margin-left: 50px; padding: 5px;" required>
+                    <option value="select">select</option>
+                    <option value="hyderabad">HYDERABAD</option>
+                    </select>   
+                </tr>
+                 <tr>
+                    <td colspan="2"><label for="to route">Route <sub style="color: rgb(255, 0, 0); font-size: medium;">(From-Via-To)</sub></label>
+                    <select name="from place " id="from place" style="width: 500px; margin-left: 5px; padding: 5px;" required>
+                    <option value="select">select</option>
+                    <option value="hyderabad">HYDERABAD</option>
+                    </select></td>  
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width: 700px; margin: auto; background-color: #F5F5F5;">
+            <legend> <button style="background-color: #00A3FF; color: white;  font-size:larger; padding: 10px; font-family: serif;">Pass Type Details</button></legend>
+             <table cellpadding="10" style="width: 100%;">
+                <tr>
+                    <td colspan="2"><label for="Payment Mode">Payment Mode </label>
+                    <select name="mode" id="Mode" style="width: 200px; margin-left: 45px; padding: 5px;" required>
+                    <option value="select">select Payment Mode</option>
+                    <option value="payment at counter">Payment at counter</option>
+                    </select></td>
+                </tr>
+                <tr> <td colspan="2"><label for="Pass Delivery Mode">Pass Delivery Mode </label>
+                    <select name="Delivery" id="Delivery" style="width: 200px; margin-left: 45px; padding: 5px;" required>
+                    <option value="select">select Pass delivery Mode</option>
+                    <option value=" AT counter">At counter</option>
+                    </select></td></tr>
+                 <tr>
+                    <td colspan="2"><label for="center">center at which you <br>want to collect</label>
+                    <select name="from place " id="from place" style="width: 500px; margin-left: 5px; padding: 5px;" required>
+                    <option value="select">select</option>
+                    <option value="hyderabad">HYDERABAD</option>
+                    </select></td>  
+                </tr> 
+            </table>
+        </fieldset>
+        <br><br>
+        <center>
+        <input type="submit" value="SUBMIT" style="background-color: rgb(189, 50, 50); font-size: larger; font-family: serif; color: white; padding: 8px; width: 100px;">
+        </center>
+    </form>
+</body>
+</html>
