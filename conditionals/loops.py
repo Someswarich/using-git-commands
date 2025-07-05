@@ -276,7 +276,9 @@ for i in range(100,1000):
         total+=s
         num//=10
     if total==i:
-        print(total)
+        print( "armstrong")
+    else:
+        print("not an armstrong")
 
 # 35. Print Fibonacci series up to n terms.
 # fibonacci sereies it is the sum of preceding ones
@@ -318,6 +320,10 @@ while n!=0:
     rev=rev*10+last
     n//=10
 print(rev)
+if rev==n:
+    print("palindrome")
+else:
+    print("not a palindrome")
 
 
 # 39. Display the sum of factorials from 1 to 5.
