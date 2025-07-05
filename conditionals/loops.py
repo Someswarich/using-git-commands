@@ -1,267 +1,267 @@
-# 1. Print numbers from 1 to 10 using a loop.
+# # 1. Print numbers from 1 to 10 using a loop.
 
 
-for i in range(1,11,1):
-    print(i)
+# for i in range(1,11,1):
+#     print(i)
 
 
-# 2.Print numbers from 10 to 1 in reverse order using a for loop.
-for i in range(10,0,-1):
-    print(i)
+# # 2.Print numbers from 10 to 1 in reverse order using a for loop.
+# for i in range(10,0,-1):
+#     print(i)
 
-# 3.Print all even numbers from 1 to 20.
+# # 3.Print all even numbers from 1 to 20.
 
-for i in range(1,21,1):
-    if i%2==0:
-          print(i)
-
-
-# 4.Print all odd numbers from 1 to 15.
-for i in range(1,21,1):
-    if i%2!=0:
-          print(i)
+# for i in range(1,21,1):
+#     if i%2==0:
+#           print(i)
 
 
-# 4. Calculate the sum of numbers from 1 to 100.
-sum=0
-for i in range(1,101):
-    sum+=i
-print(sum)
+# # 4.Print all odd numbers from 1 to 15.
+# for i in range(1,21,1):
+#     if i%2!=0:
+#           print(i)
 
 
-# 5. Print the multiplication table of 5 (from 5×1 to 5×10).
-for i in range(1,10,1):
-    print( "5 x", i ,"=" ,5*i)
-
-# 6. Print all numbers divisible by 3 up to 50.
-num=3
-for i in range(1,51):
-    if i%num==0:
-        print(i,end=" ")
+# # 4. Calculate the sum of numbers from 1 to 100.
+# sum=0
+# for i in range(1,101):
+#     sum+=i
+# print(sum)
 
 
-# 7. Calculate the factorial of a number using a loop.
-n=int(input())
-fact=1
-for i in range(1,n+1):
-    fact*=i
-print(fact)
+# # 5. Print the multiplication table of 5 (from 5×1 to 5×10).
+# for i in range(1,10,1):
+#     print( "5 x", i ,"=" ,5*i)
 
-# 8.Reverse the digits of a number using a loop.
-n=int(input())
-rev=0
-while n>0:
-    ld=n%10
-    rev=rev*10+ld
-    n=n//10
-print(rev)
+# # 6. Print all numbers divisible by 3 up to 50.
+# num=3
+# for i in range(1,51):
+#     if i%num==0:
+#         print(i,end=" ")
 
 
-# 9. Print squares of numbers from 1 to 10.
-for i in range(1,11):
-    print(i**2)
+# # 7. Calculate the factorial of a number using a loop.
+# n=int(input())
+# fact=1
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
 
-# 10. Count the number of digits in an integer.
-count=0
-n=int(input("no :"))
-while n!=0:
-    n//=10
-    count+=1
-print(count)
-
-# 11. Find the sum of digits of a number.
-total=0
-n=int(input())
-while n!=0:
-    ld=n%10
-    total=total+ld
-    n//=10 
-print(total)
-
-# 12. Print powers of 2 up to 2^10.
-for i in range(1,11):
-    print("2^", i," = ",2**i)
+# # 8.Reverse the digits of a number using a loop.
+# n=int(input())
+# rev=0
+# while n>0:
+#     ld=n%10
+#     rev=rev*10+ld
+#     n=n//10
+# print(rev)
 
 
-# 13. Check if a number is prime using a loop.
-n = int(input("Enter a number: "))
-count = 0
-for i in range(1, n + 1):
-    if n % i == 0:
-        count = count + 1
-if count == 2:
-    print("Prime number")
-else:
-    print("Not a prime number")
+# # 9. Print squares of numbers from 1 to 10.
+# for i in range(1,11):
+#     print(i**2)
 
-# 14. Print first 10 natural numbers using while loop.
-n=1
-while n<11:
-    print(n,end=" ")
-    n+=1
+# # 10. Count the number of digits in an integer.
+# count=0
+# n=int(input("no :"))
+# while n!=0:
+#     n//=10
+#     count+=1
+# print(count)
 
-# 15. Count down from 10 to 1 using a loop.
-count=0
-for i in range(1,10):
-    count+=1
-print(count)
+# # 11. Find the sum of digits of a number.
+# total=0
+# n=int(input())
+# while n!=0:
+#     ld=n%10
+#     total=total+ld
+#     n//=10 
+# print(total)
 
-# 16. Find product of all numbers from 1 to 10.
-product=1
-for i in range(1,11):
-    product*=i
-    print(product)
+# # 12. Print powers of 2 up to 2^10.
+# for i in range(1,11):
+#     print("2^", i," = ",2**i)
 
-# 17. Print numbers from 1 to 100 in steps of 5.
-for i in range(1,101,5):
-    print(i)
+
+# # 13. Check if a number is prime using a loop.
+# n = int(input("Enter a number: "))
+# count = 0
+# for i in range(1, n + 1):
+#     if n % i == 0:
+#         count = count + 1
+# if count == 2:
+#     print("Prime number")
+# else:
+#     print("Not a prime number")
+
+# # 14. Print first 10 natural numbers using while loop.
+# n=1
+# while n<11:
+#     print(n,end=" ")
+#     n+=1
+
+# # 15. Count down from 10 to 1 using a loop.
+# count=0
+# for i in range(1,10):
+#     count+=1
+# print(count)
+
+# # 16. Find product of all numbers from 1 to 10.
+# product=1
+# for i in range(1,11):
+#     product*=i
+#     print(product)
+
+# # 17. Print numbers from 1 to 100 in steps of 5.
+# for i in range(1,101,5):
+#     print(i)
     
-# 18. Find numbers between 1–50 divisible by both 3 and 5.
-a=3
-b=5
-for i in range(1,51):
-    if i%3==0 and i%5==0:
-        print(i)
+# # 18. Find numbers between 1–50 divisible by both 3 and 5.
+# a=3
+# b=5
+# for i in range(1,51):
+#     if i%3==0 and i%5==0:
+#         print(i)
 
-# 19. Print all prime numbers between 1 to 50.
-for num in range(2, 51):  # check numbers from 2 to 50
-    count = 0
-    for i in range(1, num + 1):
-        if num % i == 0:
-            count += 1
-    if count == 2:
-        print(num)
+# # 19. Print all prime numbers between 1 to 50.
+# for num in range(2, 51):  # check numbers from 2 to 50
+#     count = 0
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             count += 1
+#     if count == 2:
+#         print(num)
 
-# 20. Display the reverse of an integer.
-num=int(input())
-rev=0
-while num!=0:
-    ld=num%10     # get last digit
-    rev=rev*10+ld   # build reversed number
-    num//=10         # remove last digit
-print(rev)
+# # 20. Display the reverse of an integer.
+# num=int(input())
+# rev=0
+# while num!=0:
+#     ld=num%10     # get last digit
+#     rev=rev*10+ld   # build reversed number
+#     num//=10         # remove last digit
+# print(rev)
 
 
-# 21. Find the smallest digit in a number.
-n=int(input())
-min_val=9
-while n>0:
-    ld=n%10
-    if ld<min_val:
-        min_val=ld
-    n//=10
-print("smallest number is ",min_val)
+# # 21. Find the smallest digit in a number.
+# n=int(input())
+# min_val=9
+# while n>0:
+#     ld=n%10
+#     if ld<min_val:
+#         min_val=ld
+#     n//=10
+# print("smallest number is ",min_val)
 
-# 22. Find the largest digit in a number.
-n=int(input("Enter a number :"))
-max=0
-while n>0:
-    ld=n%10
-    if ld > max:
-        max=ld
-    n//=10
-print("largest value is ",max)
+# # 22. Find the largest digit in a number.
+# n=int(input("Enter a number :"))
+# max=0
+# while n>0:
+#     ld=n%10
+#     if ld > max:
+#         max=ld
+#     n//=10
+# print("largest value is ",max)
 
-# 23. Print pattern: 1 2 3, 4 5 6, 7 8 9
-#  1 2 3 
-#  4 5 6 
-#  7 8 9
+# # 23. Print pattern: 1 2 3, 4 5 6, 7 8 9
+# #  1 2 3 
+# #  4 5 6 
+# #  7 8 9
 
-count=1
-for i in range(3):
-    res=" "
-    for j in range(3):
-        res+=str(count)+" "
-        count+=1
-    print(res)
+# count=1
+# for i in range(3):
+#     res=" "
+#     for j in range(3):
+#         res+=str(count)+" "
+#         count+=1
+#     print(res)
 
-# 24. Print pattern of stars in triangle format.
-# *
-# * *
-# * * * 
-# * * * * 
-# * * * * *
-rows=5
-for i in range(1,rows+1):
-    res=" "
-    for j in range(i):
-        res+="* "
-    print(res)
+# # 24. Print pattern of stars in triangle format.
+# # *
+# # * *
+# # * * * 
+# # * * * * 
+# # * * * * *
+# rows=5
+# for i in range(1,rows+1):
+#     res=" "
+#     for j in range(i):
+#         res+="* "
+#     print(res)
 
-# 25. Print sum of even digits in a number.
-rows=5
-num=2
-for i in range(1,rows+1):
-    res=" "
-    for j in range(i):
-        res+=str(num)+" "
-        num+=2
-    print(res)
+# # 25. Print sum of even digits in a number.
+# rows=5
+# num=2
+# for i in range(1,rows+1):
+#     res=" "
+#     for j in range(i):
+#         res+=str(num)+" "
+#         num+=2
+#     print(res)
 
-# 26. Print sum of odd digits in a number.
-rows=5
-num=1
-for i in range(1,rows+1):
-    res=" "
-    for j in range(i):
-        res+=str(num)+" "
-        num+=2
-    print(res)
+# # 26. Print sum of odd digits in a number.
+# rows=5
+# num=1
+# for i in range(1,rows+1):
+#     res=" "
+#     for j in range(i):
+#         res+=str(num)+" "
+#         num+=2
+#     print(res)
 
-# 27. Print table of a given number.
-num=int(input())
-for i in range(1,11):
-    print(num," X ",i," = ",num*i)
+# # 27. Print table of a given number.
+# num=int(input())
+# for i in range(1,11):
+#     print(num," X ",i," = ",num*i)
 
-# 28. Count how many times a digit occurs in a number.
-count=0
-n=int(input())
-while n!=0:
-    last_digit=n%10
-    count+=1
-    n//=10
-print(count)
+# # 28. Count how many times a digit occurs in a number.
+# count=0
+# n=int(input())
+# while n!=0:
+#     last_digit=n%10
+#     count+=1
+#     n//=10
+# print(count)
 
-# 29. Sum of squares of digits of a number.
-total=0
-n=int(input("Enter a number : "))
-while n!=0:
-    last_digit=n%10
-    s=last_digit**2
-    total+=s
-    n//=10
-print(total)
+# # 29. Sum of squares of digits of a number.
+# total=0
+# n=int(input("Enter a number : "))
+# while n!=0:
+#     last_digit=n%10
+#     s=last_digit**2
+#     total+=s
+#     n//=10
+# print(total)
 
-# 30. Sum of cubes of digits of a number.
-total=0
-n=int(input("Enter a number : "))
-while n!=0:
-    last_digit=n%10
-    s=last_digit**3
-    total+=s
-    n//=10
-print(total)
+# # 30. Sum of cubes of digits of a number.
+# total=0
+# n=int(input("Enter a number : "))
+# while n!=0:
+#     last_digit=n%10
+#     s=last_digit**3
+#     total+=s
+#     n//=10
+# print(total)
 
-# 31. Count multiples of 3 between 1 and 100.
-count=0
-for i in range(1,101):
-    if i%3==0:
-        count+=1
-print(count)
+# # 31. Count multiples of 3 between 1 and 100.
+# count=0
+# for i in range(1,101):
+#     if i%3==0:
+#         count+=1
+# print(count)
 
-# 32. Print 10, 20, 30... up to 100.
-for i in range(1,101):
-    if i%10==0:
-        print(i,end=" ")
+# # 32. Print 10, 20, 30... up to 100.
+# for i in range(1,101):
+#     if i%10==0:
+#         print(i,end=" ")
 
-# 33. Print reverse of a number using while loop.
-rev=0
-n=int(input("enter a number : "))
-while n!=0:
-    last=n%10
-    rev=rev*10+last
-    n//=10
-print(rev)
+# # 33. Print reverse of a number using while loop.
+# rev=0
+# n=int(input("enter a number : "))
+# while n!=0:
+#     last=n%10
+#     rev=rev*10+last
+#     n//=10
+# print(rev)
 
 # 34. Find if number is Armstrong number (3-digit only).
 # sum of digits when they raised to the power of no of digits is equal to orginal number 
@@ -280,34 +280,51 @@ for i in range(100,1000):
     else:
         print("not an armstrong")
 
-# 35. Print Fibonacci series up to n terms.
-# fibonacci sereies it is the sum of preceding ones
-# n1=0,n2=1,n1+n2,......nth terms
-n=int(input("Enter how may sereis you want : "))
-n1=0
-n2=1
+# # 34. Find if number is Armstrong number (3-digit only).
+# # sum of digits when they raised to the power of no of digits is equal to orginal number 
+# # ex --> 153 = 1^3+5^3+3^3=1+125+27 = 153
+# total=0
+# for i in range(100,1000):
+#     total=0
+#     num=i
+#     while num!=0:
+#         last = num%10
+#         s=last**3
+#         total+=s
+#         num//=10
+#     if total==i:
+#         print(total)
 
-for i in range(n+1):
-    print(n1,end=" ")
-    c=n1+n2
-    n1=n2
-    n2=c
 
-# 36. Display all even digits in a number.
-n=int(input("Enter a Number : "))
-while n!=0:
-    last=n%10
-    if last%2==0:
-        print(last,end=" ")
-    n//=10
+# # 35. Print Fibonacci series up to n terms.
+# # fibonacci sereies it is the sum of preceding ones
+# # n1=0,n2=1,n1+n2,......nth terms
+# n=int(input("Enter how may sereis you want : "))
+# n1=0
+# n2=1
 
-# 37. Display all odd digits in a number.
-n=int(input("Enter a Number : "))
-while n!=0:
-    last=n%10
-    if last%2!=0:
-        print(last,end=" ")
-    n//=10
+# for i in range(n+1):
+#     print(n1,end=" ")
+#     c=n1+n2
+#     n1=n2
+#     n2=c
+
+# # 36. Display all even digits in a number.
+# n=int(input("Enter a Number : "))
+# while n!=0:
+#     last=n%10
+#     if last%2==0:
+#         print(last,end=" ")
+#     n//=10
+
+# # 37. Display all odd digits in a number.
+# n=int(input("Enter a Number : "))
+# while n!=0:
+#     last=n%10
+#     if last%2!=0:
+#         print(last,end=" ")
+#     n//=10
+
 
 
 # 38. Check if a number is palindrome using loop.
@@ -326,19 +343,31 @@ else:
     print("not a palindrome")
 
 
-# 39. Display the sum of factorials from 1 to 5.
-fact=1
-total=0
-for i in range(1,6):
-    fact*=i
-    total+=fact
-print(total)
+# # 38. Check if a number is palindrome using loop.
+# # A palindrome number is a number that remains the same when its digits are reversed. 
+# # For example, 121, 1331, and 4554 are palindrome numbers,madam,amma etc
+# n=int(input("enter a number : "))
+# rev=0
+# while n!=0:
+#     last =n%10
+#     rev=rev*10+last
+#     n//=10
+# print(rev)
 
-# 40. Print all factors of a number.
-n=int(input("Enter a Number : "))
-for i in range(1,n+1):
-    if n%i==0:
-        print(i,end=" ")
+
+# # 39. Display the sum of factorials from 1 to 5.
+# fact=1
+# total=0
+# for i in range(1,6):
+#     fact*=i
+#     total+=fact
+# print(total)
+
+# # 40. Print all factors of a number.
+# n=int(input("Enter a Number : "))
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i,end=" ")
 
 
 # 41. Check if a number is perfect number using loop.
