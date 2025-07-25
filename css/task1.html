@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>template1</title>
     <style>
+    .navigation{
+      margin: 0px;
+      box-sizing: border-box;
+      background-color:white;
+      position: fixed;
+      top:0;
+      width: 100%; 
+    }
     
-    body {
+  .nav_list {
+      margin: 0px;
+      width: 95%;
       font-family: 'Karma', sans-serif;
+      justify-content: space-between;
+      display: flex; 
+      /* justify-content: center; */
+      padding: 16px 0px 16px 0px;
+      /* justify-items:center ; */
+      align-items: center; 
+     
+      
     }
 
-    .row1 {
+
+    .row1,.row2 {
       margin: 100px 0 0 0;
-      padding: 16px;
+      padding: 8px 16px 8px 16px;
       text-align: center;
     }
-     .row2{
-      margin:0px;
-      padding: 16px;
-      text-align: center;
-    }
+
 
     .card1,
     .card2,
@@ -66,9 +81,35 @@
       text-align: center;
       color: #444;
     }
+    .pagination ,.pagination a{
+  text-decoration: none;
+  color: inherit;        
+  margin: 60px 0 0 0;
+  padding: 16px 16px 16px 16px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+
+.pagination a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
   </style>
 </head>
 <body>
+  <nav class="navigation"> 
+    <ul class="nav_list" style="list-style-type: none; text-decoration: none;">
+      <li><a><img src="menu.png" alt="menu" width="50px" height="50px"></a></li>
+      <li><a><h2>My Food</h2></a></li>
+      <li><a><h2>Mail</h2></a></li>
+    </ul>
+  </nav>
+ 
     
     <div class="row1">
         <div class="card1">
@@ -116,9 +157,19 @@
     </div>
 
     <center>
-      butt
+
+
+      <div class="pagination">
+          <a href="#"><<</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">>></a>
+      </div>
       
-      <h3 style="color: #444; font-family: karma,sans-serif;font-size:23px; font-weight: 400;">About Me, The Food Man</h3>
+      <h3 style="   margin: 100px 0 0 0;padding: 32px 16px 32px 16px; text-align: center;
+      color: #444; font-family: karma,sans-serif;font-size:23px; font-weight: 400;">About Me, The Food Man</h3>
     
     
       <img src="https://www.w3schools.com/w3images/chef.jpg" alt="1">
