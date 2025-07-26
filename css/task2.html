@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template2</title>
+    <style>
+        body{
+            font-family: 'Segoe UI',Arial,  Verdana, sans-serif;
+            
+        }
+        .nav{
+            width: 100%;
+            font-size: 17px;
+            font-family: Verdana,sans-serif;
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000; 
+            box-sizing: border-box;
+        }
+        .elements{
+             display: inline-block;
+        }
+        .p{
+            display: inline-block;
+            padding-left: 63%;
+            box-sizing: border-box;
+
+         }
+        p{
+            display: inline-block;
+            padding:  8px 16px 8px 16px;
+            
+           
+        }
+        .img{
+            width: 100%;
+            position: relative;
+            margin-top: 60px;
+            /* box-sizing: border-box; */
+            
+            
+        } 
+        .p1{
+            position: absolute;
+            top: 57%;
+            left: 40%;
+            margin: 16px 0px 0px 0px ;
+            font-style: bold;
+            text-align: center;
+           box-sizing: border-box;
+        }  
+        b{
+            background-color: rgba(0, 0, 0, 0.684);
+            box-sizing: border-box;
+            color: white;
+            padding: 10px 12px;
+            font-size: 35px;
+        }
+        .p1{
+            color: rgb(241, 241, 241);
+            background-color: rgba(0, 0, 0, 0);
+            font-size: 36px;
+            /* padding-left: 16px; */
+            margin: 16px 0px 0px 0px;
+           
+        }
+        .main{
+            margin: 20px 20px 20px 20px;
+            width: 100%;
+            padding-left: 100px;
+
+        }
+        .item1,.item2,
+        .item3,.item4{
+            
+            margin: 16px 0px 0px 0px;
+            box-sizing: border-box;
+            position: relative;
+            display: inline-block;
+            align-items: center;
+            vertical-align: top;
+           
+        }
+        .item1>img,.item2>img,.item3>img,.item4>img{
+             height: 250px;
+             width: 250px;
+             position: relative;
+            top: 0; 
+             align-items: left;
+             display: block;
+             
+            
+
+        }
+        .item1>p,.item2>p,
+        .item3>p,.item4>p{
+            display: inline-block;
+            position: absolute;
+            top: -15px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 16px;
+            z-index: 5;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="elements">
+            <p>BR Architects</p>
+        </div>
+        <div class="p"></div>
+            <p>Projects</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+    </nav>
+    <div class="img">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" width="100%" height="auto" alt="1">
+        <p class="p1"><b>BR</b>Architects</p>
+    </div>
+    <p>Projects</p>
+    <div class="main">
+        <div class="item1">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="2">
+            <p>Summer House</p>
+        </div>
+        <div class="item2">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="3">
+            <p>Brick House</p>
+        </div>
+        <div class="item3">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="4">
+            <p>Renovate</p>
+        </div>
+        <div class="item4">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+            <p>Barn House</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="item1">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="2">
+            <p>Summer House</p>
+        </div>
+        <div class="item2">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="3">
+            <p>Brick House</p>
+        </div>
+        <div class="item3">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="4">
+            <p>Renovate</p>
+        </div>
+        <div class="item4">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+            <p>Barn House</p>
+        </div>
+    </div>
+
+   
+</body>
+</html>
